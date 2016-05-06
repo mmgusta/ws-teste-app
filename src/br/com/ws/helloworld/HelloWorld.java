@@ -13,7 +13,7 @@ public class HelloWorld {
 	@Path("/helloWorld")
 	@Produces("application/json")
 	public Response getHelloWorld() {
-		String value = "Hello world - Atualizado";
+		String value = "Hello world - Atualizado 2";
 		return Response.status(200).entity(value).build();
 	}
 }
